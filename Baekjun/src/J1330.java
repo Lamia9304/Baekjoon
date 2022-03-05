@@ -14,11 +14,7 @@ public class J1330 {
 		
 		sc.close();
 		
-		if(a>b) System.out.println(">");
-		
-		else if(a<b)System.out.println("<");
-	
-		else System.out.println("==");
+		System.out.println((a>b) ? ">" : ((a<b) ? "<" : "==" ));
 		
 	}
 	
